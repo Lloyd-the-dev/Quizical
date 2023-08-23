@@ -1,0 +1,71 @@
+.heading{
+	text-align: center;
+	width: 30%;
+}
+.heading span{
+	color: #FCC822;
+	font-weight: 400;
+}
+.message{
+	text-align: center;
+	width: 30%;
+}
+.second-section{
+	display: flex;
+	margin-top: -4rem;
+	align-items: center;
+	width: 100%;
+}
+.inner-section{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+.inp{
+	width: 60%;
+	padding: .7rem;
+	color: #FCC822;
+	font-weight: bold;
+	font-size: 1rem;
+}
+label, .bottom-section{
+	color: rgba(0, 0, 0, 0.61);
+}
+.bottom-section{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	width: 64%;
+}
+.forgot{
+	color: rgba(0, 0, 0, 0.61);
+	text-decoration: none;
+}
+
+.buttons-section{
+	margin-top: 2rem;
+	display: flex;
+	width: 27%;
+	justify-content: space-between;
+}
+.login-btn-main, .sign-btn{
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+}
+.login-btn-main{
+	background-color: #FCC822;
+	color: white;
+	width: 30%;
+	text-align: center;
+}
+.sign-btn{
+	border: 1px solid #FCC822;
+	color: #FCC822;
+}
+.login-img{
+	width: 40%;
+	object-fit: cover;
+}
